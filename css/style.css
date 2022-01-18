@@ -6,13 +6,43 @@
 
 body {
     width: 500px;
-    height: 800px;
+    height: 500px;
     padding: 1em;
     margin: auto;
 }
 
 .cube {
     width: 100%;
+}
+
+.main_section {
+    background-color: blue;
+    width: 100%;
+    height: 12em;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.head_section {
+    width: 100%;
+    height: 2em;
+}
+
+.sidebar {
+    width: 30%;
+    height: 5em;
+    float: right;
+}
+
+.central_section {
+    width: 40%;
+    height: 5em;
+    float: right;
 }
 
 .pink {
@@ -27,15 +57,10 @@ body {
     margin: 2% auto;
 }
 
-.main_section {
-    background-color: blue;
-    width: 100%;
-    height: 12em;
-    margin: 0 auto;
-}
 
 .blue {
     background-color: rgb(62, 140, 243);
+    width: 100%;
 }
 
 .violet {
@@ -43,4 +68,8 @@ body {
     width: 100%;
     height: 2em;
     margin: 2% auto;
+}
+
+.light_blue {
+    background-color: cornflowerblue;
 }
